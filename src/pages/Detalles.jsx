@@ -11,7 +11,7 @@ const Detalles = () => {
     const pizzaDetail = data.find(item => item.id == id)
 
     const addPizza = (id) => {
-        setCart([...cart, pizza])
+        setCart([...cart, pizzaDetail])
     }
 
 
@@ -36,7 +36,7 @@ const Detalles = () => {
                         </ul>
                         <p><strong> $ {pizzaDetail.price} </strong></p>
 
-                        <button className='btn btn-success m-2' onClick={() => addPizza(pizzaDetail.id)}>Añadir al carrito</button>
+                        <button className='btn btn-success m-2' onClick={() => addPizza(pizzaDetail)}>Añadir al carrito</button>
 
                     </div>
                 </div>
