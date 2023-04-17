@@ -11,7 +11,7 @@ const Detalles = () => {
     const pizzaDetail = data.find(item => item.id == id)
 
     const addPizza = (id) => {
-        setCart([...cart, id])
+        setCart([...cart, pizza])
     }
 
 
