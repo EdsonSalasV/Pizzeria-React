@@ -1,0 +1,25 @@
+ ::first-letter {
+   text-transform: capitalize;
+}
+
+.list-unstyled{
+    text-transform: capitalize;
+}
+
+.detallespizza{
+    object-position: center;
+}
+    
+    
+    .text-header{
+        position: absolute;
+        top:25%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        color:white;
+    
+    }
+    
+    .card{
+        background-color: rgb(240, 235, 162);
+    }
