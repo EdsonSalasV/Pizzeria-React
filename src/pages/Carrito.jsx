@@ -7,7 +7,7 @@ const Carrito = () => {
     return (
         <>
             <CartInfo />
-            
+            <CartTotal/>
         </>
     )
 }

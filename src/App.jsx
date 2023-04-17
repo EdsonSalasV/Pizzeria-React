@@ -5,8 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { MyContext } from './context/MyContext'
 import Detalles from './pages/Detalles'
 import './App.css'
-import CartInfo from './pages/CartInfo'
-import CartTotal from './components/CartTotal'
+import Carrito from './pages/Carrito'
 
 
 const App = () => {
@@ -50,12 +49,12 @@ const App = () => {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/detalles/:id' element={<Detalles/>} />
-            <Route path='carrito' element={<CartInfo/>}/>
+            <Route path='carrito' element={<Carrito/>}/>
             
 
          
           </Routes>
-          <CartTotal/>
+          
         </BrowserRouter>
 
       </MyContext.Provider>
